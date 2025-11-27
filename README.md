@@ -1,2 +1,2 @@
-# joosehot.io
+# joosehot.github.io
 Sivusto
