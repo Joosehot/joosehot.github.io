@@ -715,6 +715,31 @@ input, select, textarea {
 						padding: 0 0 0 0rem;
 					}
 
+/* About images (chess placeholders) */
+
+.about-images {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+.about-images img {
+	max-width: 220px;
+	width: 30%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+	background: #ffffff;
+	padding: 0.5rem;
+	box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Profile photo on 'Tietoja minusta' */
+
+
+
 					.row.gtr-0.gtr-uniform {
 						margin-top: 0rem;
 					}
@@ -4687,3 +4712,20 @@ input, select, textarea {
 		}
 
 	}
+
+/* Custom: Equal width navigation links */
+#nav ul.links {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+#nav ul.links li {
+	flex: 1;
+	text-align: center;
+}
+
+#nav ul.links li a {
+	display: block;
+	padding: 0.75rem 0;
+}
