@@ -1,2 +1,0 @@
-# joosehot.github.io
-Sivusto
