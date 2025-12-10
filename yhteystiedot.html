@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yhteystiedot">
+    <title>Yhteystiedot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="palvelut.html">Palvelut</a></li>
+                <li><a href="yhteystiedot.html" aria-current="page">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Yhteystiedot</h1>
+        
+        <section>
+            <h2>Ota yhteyttä</h2>
+            <address>
+                <p>Osoite</p>
+                <p>Puhelin</p>
+                <p>Sähköposti</p>
+            </address>
+        </section>
+
+        <section>
+            <h2>Yhteydenottolomake</h2>
+            <form>
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Sähköposti:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Viesti:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Lähetä</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
